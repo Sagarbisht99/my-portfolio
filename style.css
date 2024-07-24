@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    padding: 0 130px ;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 160px;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px ;
+    cursor: pointer;
+}
+
+h5{
+    font-size: 25px ;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.logo .color-blue{
+    color: #0af8e5;
+    text-shadow: 0 0 10px #0af8e5 ; 
+}
+
+
+.text{
+    font-size: 17px ;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    z-index: 10;
+}
+
+.text:hover{
+   color: #0af8e5;
+   border-bottom: 3px solid #0af8e5;
+   text-decoration: none;
+}
+
+
+.nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.pages-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px ;
+
+}
+
+
+.hero{
+    display: flex;
+}
+
+.left{
+     display: flex;
+     flex-direction: column;
+     /* justify-content: flex-start; */
+     gap: 10px ;
+     cursor: pointer;
+}
+
+.text-1{
+     font-size: 50px ;
+     font-weight: 700;
+}
+
+.text-2{
+    font-size: 25px ;
+    font-weight: 600;
+}
+
+
+.text-3{
+    font-size: 13px ;
+    font-weight: 500;
+    width: 60%;
+    letter-spacing: 1px ;
+
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    gap: 8px ;
+    margin: 10px 0;
+}
+
+.social-link{
+    height: 40px ;
+    width: 40px ;
+    border-radius: 50%;
+    border: 2px solid white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.social-link:hover{
+    background-color: #0af8e5;
+    box-shadow: 0 0 10px #0af8e5 ; 
+    
+}
+
+.buttons{
+    display: flex;
+    gap: 7px  ;
+}
+
+
+button{
+    height: 50px ;
+    width: 130px ;
+    color: #0af8e5;
+    background-color: black;
+    border-radius: 30px  ;
+    border: 2px solid #0af8e5;
+    font-size: 20px ;
+    font-weight: 600;
+    letter-spacing: 1px ;
+}
+
+button:hover{
+    background-color: #0af8e5;
+    color: black;
+    font-weight: 800;
+    box-shadow: 0 0 10px #0af8e5 ; 
+}
+
+.my-image{
+   height: 350px ;
+   border-radius: 20px ;
+   margin-right: 50px ;
+   opacity: 0;
+   cursor: pointer;
+}
+
+.designation{
+   color: #0af8e5;
+}
+
+.name{
+    color: #0af8e5;
+}
+
+
+/* -------------------------------- */
+
+.skills-section{
+    height: 100vh;
+    width: 100vw;   
+    padding: 0 130px ;
+}
+
+.heading-name{
+    text-align: center;
+    font-size: 40px ;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.effect{
+    display: flex;
+    flex-direction: column;
+}
+
+.para{
+    font-size: 55px ;
+    color: #0af8e5;
+    letter-spacing: 2px ;
+    mix-blend-mode: difference;
+}
+
+
+.heading{
+    border-bottom: 5px solid #0af8e5;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.image{
+    opacity: 0;
+    position: absolute;
+    transition: all ease-in  0.2s;
+}
+
+
+/* --------------------------------------------------------------------------------------- */
+
+
+.projects-section{
+    height: 160vh;
+    width: 100vw;
+    padding: 0 130px;
+}
+
+.projects-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 80px ;
+    align-items: center;
+    
+    
+}
+
+.divs{
+    display: flex;
+    align-items: center;
+    gap: 100px ;
+    justify-content: center;
+    position: relative;
+}
+
+.card{
+    height: 400px;
+    width: 450px;
+    /* background-color: #134B70; */
+    border: 5px solid #0af8e5;
+    padding: 30px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px  ;
+}
+
+.card:hover{
+    box-shadow: 0 0 35px #0af8e5;
+    height: 410px ;
+}
+
+
+.card-image{
+    height: 240px;
+    width: 380px;
+}
+
+
+.project-text{
+    font-size: 40px ;
+    text-align: center;
+    font-weight: 700;
+    margin: 70px 0 ;
+    cursor: pointer;
+}
+
+.project-description{
+    color: silver;
+}
+
+.arrow{
+    position: absolute;
+    right: 30px ;
+}
+
+.contact{
+     height: 100%;
+     width: 100vw;
+     padding: 0 80px ;
+     text-align: center;
+     font-size: 30px ;
+     font-weight: 700;
+    
+}
+
+.contact-text{
+    cursor: pointer;
+}
+
+
+a{
+    color: #0af8e5;
+    text-decoration: none;
+}
+a:hover{
+      text-decoration: underline;
+}
+
+.contact-menu{
+    margin: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+
+
+@media (max-width: 1000px) {
+   .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    
+   }
+}
+
+
+
+
+
+
+
+

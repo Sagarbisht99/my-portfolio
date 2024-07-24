@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.x/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="king">
+        <div id="home-section" class="main">
+            <div class="nav">
+                <div class="logo">
+                    <h5>SAGAR</h5>
+                    <h5 class="color-blue">BISHT</h5>
+                </div>
+                <div class="pages-list">
+                     <a class="text"   href="#home-section">Home</a>
+                     <a class="text"  href="#skill-section">Skills</a>
+                     <a class="text"  href="#project-section">Projects</a>
+                     <a class="text" href="#contact-section">Contact</a>
+                    
+                </div>
+            </div>
+            <div class="hero">
+                <div class="left">
+                    <div class="text-1">Hi, it's <span class="name">Sagar</span></div>
+                    <div class="text-2">I'm a <span class="designation"></span></div>
+                    <div class="text-3">Passionate about creating websites with beautiful , responsive interfaces and functionality After doing many projects in frontend developement , i have a very good command in this frontend developemnt</div>
+                    <div class="social-links">
+                        <div class="social-link"><a target="_blank" href="https://www.linkedin.com/in/sagar-bisht-b39114308/"><img style="display: block;"  src="linkdin.svg" alt=""></a></div>
+                        <div class="social-link"><a target="_blank" href="https://github.com/Sagarbisht99"><img style="display: block;" src="git.svg" alt=""></a></div>
+                        <div class="social-link"><a target="_blank" href="https://x.com/Sagarbisht465"><img style="display: block;"  src="twitter.svg" alt=""></a></div>
+                        <div onclick="copyEmailToClipboard()" class="social-link"><a target="_blank" href="#"><img style="display: block;"  src="gmail.svg" alt=""></a></div>
+                    </div>
+                    <div class="buttons">
+                        <a href="#contact-section"><button>Hire</button></a>
+                        <a href="#contact-section"><button>Contact</button></a>
+                    </div>
+                </div>
+                <div class="right">
+                    <img class="my-image" src="674394.svg" alt="">
+                </div>
+            </div>
+            <div class="circular">
+                <img src="circular.svg" alt="">
+            </div>
+        </div>
+    
+        <div id="skill-section" class="skills-section">
+            <div class="heading-name">SKILLS AND TECHNOLOGY</div>
+            <div class="effect">
+                <div class="heading" >
+                    <h1 class="para">HTML</h1>
+                    <img class="image" src="html.svg" alt="">
+                </div>
+                <div class="heading" >
+                    <h1 class="para">CSS</h1>
+                    <img  class="image" src="css.svg" alt="">
+                </div>
+                <div class="heading" >
+                    <h1 class="para">TAILWIND CSS</h1>
+                    <img  class="image" src="tailwind.svg" alt="">
+                </div>
+                <div class="heading" >
+                    <h1 class="para">JAVASCRIPT</h1>
+                    <img  class="image" src="javascript.svg" alt="">
+                </div>
+                <div class="heading" >
+                    <h1 class="para">REACT</h1>
+                    <img  class="image" src="react.svg" alt="">
+                </div>
+                <div class="heading" >
+                    <h1 class="para">BOOTSTAP</h1>
+                    <img  class="image" src="bootstap.svg" alt="">
+                </div>
+            </div>
+        </div>
+    
+        <div id="project-section" class="projects-section">
+            <p class="project-text">RECENT PROJECTS</p>
+            <div class="projects-cards">
+                <div class="divs">
+                    <div class="card">
+                        <img class="arrow" src="arrow.svg" alt="">
+                        <h2>SPOTIFY WEBSITE</h2>
+                        <P class="project-description"> a globally recognized platform for streaming music and podcasts</P>
+                        <img class="card-image" src="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    </div>
+                    
+                    <div class="card">
+                        <img class="arrow" src="arrow.svg" alt="">
+                        <h2>EAT CURIOUS</h2>
+                        <P class="project-description">an innovative platform focused on culinary exploration and food education</P>
+                        <img class="card-image" src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                    </div>
+                </div>
+    
+                <div class="divs">
+                    <div class="card">
+                        <img class="arrow" src="arrow.svg" alt="">
+                        <h2>CHESS.COM</h2>
+                        <P class="project-description"> a leading online platform for chess enthusiasts worldwide.</P>
+                        <img class="card-image" src="https://upload.wikimedia.org/wikipedia/en/4/4c/Chess.com_Homepage_%28as_of_December_2017%29.PNG" alt="">
+                    </div>
+                    
+                    <div class="card">
+                        <img class="arrow" src="arrow.svg" alt="">
+                        <h2>MONKEY TYPING</h2>
+                        <P class="project-description">a novel typing game designed to improve users’ typing speed and accuracy</P>
+                        <img class="card-image" src="https://beebom.com/wp-content/uploads/2021/04/monkeytype-results.jpg" alt="">
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    
+        <div id="contact-section" class="contact">
+            <h3 class="contact-text">CONTACT ME<img style="margin-left: 10px; background-color: white; border-radius: 50%;" src="contactarrow.svg" alt=""></h3>
+            <div class="contact-menu">
+              <a href="https://github.com/Sagarbisht99" target="_blank">GIT HUB</a>
+              <a onclick="copyEmailToClipboard()" href="">sagarbisht409@gmail.com</a>
+              <a href="https://www.linkedin.com/in/sagar-bisht-b39114308/" target="_blank">LINKDIN</a>
+              <a href="https://x.com/Sagarbisht465" target="_blank">X/TWITTER</a>
+              <a onclick="copyphonenumberToClipboard()" >8287325773</a>
+            </div>
+    
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
