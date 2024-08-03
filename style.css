@@ -432,35 +432,6 @@ cursor: pointer;
     margin: 0;
    }
 
-
-.cross{
-    cursor: pointer;
-    height: 30px ;
-    width: 30px ;
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 5px ;
-}
-
-#responsive-bar{
-    cursor: pointer;
-    margin-left: 50px ;
-    font-size: 25px ;
-    letter-spacing: 1px;
-    font-weight: 600;
-    cursor: pointer;
-    color: #0af8e5;
-    z-index: 10;
-    
-}
-
-
-
-
-
-   
-
 }
 
 .hamburger-responsive{
