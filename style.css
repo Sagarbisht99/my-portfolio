@@ -451,7 +451,9 @@ cursor: pointer;
     cursor: pointer;
     color: #0af8e5;
     z-index: 10;
-}s
+}
+
+
 
 }
 
@@ -469,6 +471,9 @@ cursor: pointer;
     flex-direction: column;
     gap: 3px ;
 }
+
+
+
 
 
 
