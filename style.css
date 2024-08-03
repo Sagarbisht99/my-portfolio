@@ -437,6 +437,30 @@ cursor: pointer;
 }
 
 
+.hamburger-responsive{
+    height: 500px ;
+    width: 260px ;
+    background-color: rgb(35, 35, 35) ;
+    position: absolute;
+    top: 0px;
+    right : -300px ;
+    z-index: 10;
+    transition: all linear .3s;
+    display: flex ;
+    flex-direction: column;
+
+}
+
+#responsive-bar{
+    font-size: 17px ;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    z-index: 10;
+}
+
+
 
 
 

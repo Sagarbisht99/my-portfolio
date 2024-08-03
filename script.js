@@ -200,6 +200,15 @@ document.addEventListener("DOMContentLoaded" , () => {
 //mouse ---------------------------------------------------------------------------
 
 
+document.querySelector("#hamburger").addEventListener("click" , () => {
+    document.querySelector(".hamburger-responsive").style.right = "0"
+    
+})
+
+document.querySelector(".cross").addEventListener("click" , () => {
+       document.querySelector(".hamburger-responsive").style.right = "-300px"
+})
+
 
 
 
